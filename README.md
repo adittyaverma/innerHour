@@ -17,7 +17,7 @@ Additional Gems:
 
 Database:
 
-- Mysql
+- sqlite3
 
 Install bundle to install dependancies and gems.
 
