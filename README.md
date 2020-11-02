@@ -1,24 +1,38 @@
-# README
+# innerHour Assignment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the innerHour assignment. This repository includes a very basic rails app to be used to assessment and testing purposes only.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Dependencies:
 
-* System dependencies
+- Ruby 2.7.0
+- Rails 6.0.3.4 (Framework)
+- Bootstrap v4.5.3
 
-* Configuration
+Additional Gems:
 
-* Database creation
+- gem `devise`
+- gem `friendly_id`
 
-* Database initialization
+Database:
 
-* How to run the test suite
+- Mysql
 
-* Services (job queues, cache servers, search engines, etc.)
+Install bundle to install dependancies and gems.
 
-* Deployment instructions
+- bundle install
 
-* ...
+Run this application
+
+- rails server
+
+End Point:
+
+- localhost:3000
+
+
+## Explanation & Points
+- Bootstrap libirary included with webpacker.
+- Authentication managed by devise gem.
+- User can login, tweet (basic curd operation), comment and get list of own tweets.
